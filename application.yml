@@ -1,0 +1,7 @@
+my:
+      greetings: Hello World From Global Config Server
+
+db:
+    host: 1.2.3.4 Read From GlobalCloudServer
+    port: 1234
+    type: hana

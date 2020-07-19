@@ -1,0 +1,29 @@
+my:
+      greetings: Hello World From Property File
+greetings:
+      list: Namaskara,Namaskaram,Vanakkam,Namashkar
+      map: "{Kannada:'Namaskara',Telugu:'Namaskaram'}"
+
+
+db:
+    host: 1.2.3.4S
+    port: 1234
+    type: hana
+
+##Enable all the endpoints for the actuator.
+management:
+    endpoints:
+        web:
+            exposure:
+                     include: "*"
+                     
+                     
+spring:
+  cloud:
+    config:
+      uri:
+      - http://localhost:8888
+  application:
+    name: spring-boot-config
+      
+ 
